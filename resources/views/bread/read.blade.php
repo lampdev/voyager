@@ -90,7 +90,7 @@
                                         <br/>
                                     @endforeach
                                 @else
-                                    <a href="/storage/{{ $data->{$row->field} }}">
+                                    <a href="/storage/{{ $dataTypeContent->{$row->field} }}">
                                         Download
                                     </a>
                                 @endif
